@@ -1,0 +1,27 @@
+@import "normalize.scss";
+
+$topcolor:#777777;
+
+.nav {
+	color: $topcolor;
+	padding: .625em 2em .75em 1em;
+
+	.logo {
+		float: left;
+		padding-bottom: .75em;
+
+	}
+
+	.firstgrey {
+		float: right;
+		padding: 0 1em;
+		padding-bottom: .75em;
+
+	}
+	.firstblack {
+		color: black;
+		float: right;
+		padding: 0 1em;
+		padding-bottom: .75em;
+	}
+}
