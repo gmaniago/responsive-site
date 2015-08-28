@@ -10,25 +10,21 @@ body{
 	padding-top: .625em;
 	padding-right: 2em;
 	padding-left: 1em;
-	height: 2em;
+	height: 1.7em;
 
 	.logo {
 		float: left;
-		padding-bottom: .75em;
 
 	}
 
 	.firstgrey {
 		float: right;
 		padding: 0 1em;
-		padding-bottom: .75em;
 
 	}
 	.firstblack {
 		color: black;
 		float: right;
-		padding: 0 1em;
-		padding-bottom: .75em;
 	}
 }
 
@@ -44,28 +40,60 @@ body{
 }
 
 .green {
-	background-color: #1F753F;
+	background-color: #289952;
 	height: 8.575em; 
 	text-align: center;
 	margin-top: 3.06em;
 	margin-left: .625em;
 	margin-right: .625em;
 	padding-top: 1.8em;
-	.type {
-		color: white;
-		font-size: .75em;
-	}
-	.price {
-		color: white;
-		font-weight: lighter;
-		font-size: 4.3125em;
-	}
 	.month {
 		font-size: .75em;
 		color: #98CAA4;
 	}
 }
 
+.blue {
+	background-color: #2C4387;
+	height: 8.575em; 
+	text-align: center;
+	margin-top: 3.06em;
+	margin-left: .625em;
+	margin-right: .625em;
+	padding-top: 1.8em;
+	.month {
+		font-size: .75em;
+		color: #92A0C2;
+	}
+}
+
+.black {
+	background-color: black;
+	height: 8.575em; 
+	text-align: center;
+	margin-top: 3.06em;
+	margin-left: .625em;
+	margin-right: .625em;
+	padding-top: 1.8em;
+	.month {
+		font-size: .75em;
+		color: #858585;
+	}
+}
+
+.type {
+		color: white;
+		font-size: .75em;
+	}
+.price {
+		color: white;
+		font-weight: lighter;
+		font-size: 4.3125em;
+	}
+.month {
+		font-size: .75em;
+		color: #98CAA4;
+	}
 .menu {
 		text-align: center;
 		margin-left: .625em;
@@ -97,54 +125,6 @@ body{
         text-decoration: none;
 	}
 
-
-.blue {
-	background-color: #2C4387;
-	height: 8.575em; 
-	text-align: center;
-	margin-top: 3.06em;
-	margin-left: .625em;
-	margin-right: .625em;
-	padding-top: 1.8em;
-	.type {
-		color: white;
-		font-size: .75em;
-	}
-	.price {
-		color: white;
-		font-weight: lighter;
-		font-size: 4.3125em;
-	}
-	.month {
-		font-size: .75em;
-		color: #94A1C3;
-	}
-}
-
-.black {
-	background-color: black;
-	height: 8.575em; 
-	text-align: center;
-	margin-top: 3.06em;
-	margin-left: .625em;
-	margin-right: .625em;
-	padding-top: 1.8em;
-	.type {
-		color: white;
-		font-size: .75em;
-	}
-	.price {
-		color: white;
-		font-weight: lighter;
-		font-size: 4.3125em;
-	}
-	.month {
-		font-size: .75em;
-		color: #878787;
-	}
-}
-
-
 .details {
 	padding-left: 2em;
 	padding-right: 5em;
@@ -165,6 +145,10 @@ body{
 	color: #57676E;
 	padding-bottom: 2em;
 }
+.titleinfo2 {
+	color: #57676E;
+	padding-bottom: 2em;
+}
 p {
 	line-height: 1.6em;
 }
@@ -181,8 +165,66 @@ p {
 
 a {
 	color: white;
-	
+
 }
+
+@media screen and (min-width: 479px) {
+
+	.img {
+		height: 4em;
+		font-size: 3em;
+		padding-bottom: 1.3em;
+	}
+	.green {
+		padding-top: 2.75em;
+		height: 11.25em;
+		.type {
+			font-size: 1em;
+			letter-spacing: 0.3em;
+		}
+		.month {
+			font-size: 1em;
+		}
+
+	}
+	.blue {
+		padding-top: 2.75em;
+		height: 11.25em;
+		.type {
+			font-size: 1em;
+			letter-spacing: 0.3em;
+		}
+		.month {
+			font-size: 1em;
+		}
+
+	}
+	.black {
+		padding-top: 2.75em;
+		height: 11.25em;
+		.type {
+			font-size: 1em;
+			letter-spacing: 0.3em;
+		}
+		.month {
+			font-size: 1em;
+		}
+	}
+	.price {
+		font-size: 6em;
+	}
+	.nav .firstblack {
+		padding: 0em 1em;
+	}
+	.titleinfo2 {
+	padding-bottom: .2em;
+}
+}
+
+
+
+
+
 
 
 
