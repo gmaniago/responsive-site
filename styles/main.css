@@ -356,9 +356,15 @@ td,
 th {
   padding: 0; }
 
+body {
+  background-color: #FFFFFF; }
+
 .nav {
   color: #777777;
-  padding: .625em 2em .75em 1em; }
+  padding-top: .625em;
+  padding-right: 2em;
+  padding-left: 1em;
+  height: 2em; }
   .nav .logo {
     float: left;
     padding-bottom: .75em; }
@@ -371,5 +377,133 @@ th {
     float: right;
     padding: 0 1em;
     padding-bottom: .75em; }
+
+.img {
+  background: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 5.25em;
+  font-size: 1.5em;
+  padding-top: 3em; }
+
+.green {
+  background-color: #1F753F;
+  height: 8.575em;
+  text-align: center;
+  margin-top: 3.06em;
+  margin-left: .625em;
+  margin-right: .625em;
+  padding-top: 1.8em; }
+  .green .type {
+    color: white;
+    font-size: .75em; }
+  .green .price {
+    color: white;
+    font-weight: lighter;
+    font-size: 4.3125em; }
+  .green .month {
+    font-size: .75em;
+    color: #98CAA4; }
+
+.menu {
+  text-align: center;
+  margin-left: .625em;
+  margin-right: .625em; }
+  .menu .benefits {
+    color: #4F6067;
+    font-size: 1em;
+    background: #F7F7F7;
+    border: .0625em solid #E4E4E4;
+    height: 1.75em;
+    padding-top: 1em; }
+
+.choose {
+  color: #4F6067;
+  height: 3.3125em;
+  border: .0625em solid #E4E4E4;
+  padding-top: 2em; }
+
+.btn {
+  color: #4F6067;
+  text-decoration: none;
+  border: .2em solid;
+  border-radius: 1.75em;
+  color: black;
+  padding: 0.625em 1.25em;
+  border: solid #DDDDDD .12em;
+  text-decoration: none; }
+
+.blue {
+  background-color: #2C4387;
+  height: 8.575em;
+  text-align: center;
+  margin-top: 3.06em;
+  margin-left: .625em;
+  margin-right: .625em;
+  padding-top: 1.8em; }
+  .blue .type {
+    color: white;
+    font-size: .75em; }
+  .blue .price {
+    color: white;
+    font-weight: lighter;
+    font-size: 4.3125em; }
+  .blue .month {
+    font-size: .75em;
+    color: #94A1C3; }
+
+.black {
+  background-color: black;
+  height: 8.575em;
+  text-align: center;
+  margin-top: 3.06em;
+  margin-left: .625em;
+  margin-right: .625em;
+  padding-top: 1.8em; }
+  .black .type {
+    color: white;
+    font-size: .75em; }
+  .black .price {
+    color: white;
+    font-weight: lighter;
+    font-size: 4.3125em; }
+  .black .month {
+    font-size: .75em;
+    color: #878787; }
+
+.details {
+  padding-left: 2em;
+  padding-right: 5em;
+  text-align: left; }
+
+.title1 {
+  padding-top: 5.625em;
+  font-size: 1.2em;
+  letter-spacing: 0.3em; }
+
+.title2 {
+  letter-spacing: 0.3em;
+  font-size: 1.2em; }
+
+.titleinfo {
+  color: #57676E;
+  padding-bottom: 2em; }
+
+p {
+  line-height: 1.6em; }
+
+.foot {
+  background-color: black;
+  color: #777777;
+  height: 5.25em;
+  text-align: center;
+  padding-left: 2.625em;
+  padding-right: 2.625em;
+  padding-top: 2.25em; }
+
+a {
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
