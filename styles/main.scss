@@ -156,7 +156,7 @@ p {
 .foot {
 	background-color: black;
 	color: #777777;
-	height: 5.25em;
+	height: 5em;
 	text-align: center;
 	padding-left: 2.625em;
 	padding-right: 2.625em;
@@ -221,7 +221,29 @@ a {
 }
 }
 
-
+@media screen and (min-width: 767px) {
+	.main {
+		text-align: center;
+	}
+	.window {
+		display: inline-block;
+		width: 32%;
+		box-sizing: border-box;
+	}
+	
+	.details {
+		vertical-align: top;
+		display: inline-block;
+		box-sizing: border-box;
+		width: 48%;
+	}
+	#pay {
+		padding-top: 5.625em;
+	}
+	.foot {
+		height: 3.25em;
+	}
+}
 
 
 
