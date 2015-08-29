@@ -560,10 +560,9 @@ a {
     height: 3.25em; } }
 @media screen and (min-width: 979px) {
   .main {
-    padding: 0em 5em; }
-
-  .details {
-    padding: 0em 5em 0em 6.3em; }
+    padding: 0em 5em;
+    width: 60em;
+    margin: 0 auto; }
 
   .img {
     background-size: cover; } }

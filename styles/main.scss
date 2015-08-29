@@ -1,3 +1,9 @@
+
+
+
+
+
+
 @import "normalize.scss";
 
 $topcolor:#777777;
@@ -247,20 +253,12 @@ a {
 @media screen and (min-width: 979px) {
 	.main {
 		padding: 0em 5em;
+		width:60em;
+		margin: 0 auto;
 	}
 
-	.details {
-		padding: 0em 5em 0em 6.3em;
-	}
 	.img {
 		background-size: cover;
 	}
 }
-
-
-
-
-
-
-
 
