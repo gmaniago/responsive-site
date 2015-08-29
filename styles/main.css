@@ -376,7 +376,6 @@ body {
 
 .img {
   background: url(../images/background.jpg);
-  background-repeat: no-repeat;
   width: 100%;
   text-align: center;
   color: white;
@@ -559,5 +558,14 @@ a {
 
   .foot {
     height: 3.25em; } }
+@media screen and (min-width: 979px) {
+  .main {
+    padding: 0em 5em; }
+
+  .details {
+    padding: 0em 5em 0em 6.3em; }
+
+  .img {
+    background-size: cover; } }
 
 /*# sourceMappingURL=main.css.map */
